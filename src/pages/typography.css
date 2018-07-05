@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Archer-Medium';
+  src: url('../assets/fonts/Archer-Medium.eot');
+  src: url('../assets/fonts/Archer-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Archer-Medium.woff') format('woff'),
+    url('../assets/fonts/Archer-Medium.ttf') format('truetype'),
+    url('../assets/fonts/Archer-Medium.svg#Archer-Medium') format('svg'),
+    url('../assets/fonts/Archer-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archer-SemiboldItalic';
+  src: url('../assets/fonts/Archer-SemiboldItalic.eot');
+  src: url('../assets/fonts/Archer-SemiboldItalic.woff2') format('woff2'),
+    url('../assets/fonts/Archer-SemiboldItalic.woff') format('woff'),
+    url('../assets/fonts/Archer-SemiboldItalic.ttf') format('truetype'),
+    url('../assets/fonts/Archer-SemiboldItalic.svg#Archer-SemiboldItalic')
+      format('svg'),
+    url('../assets/fonts/Archer-SemiboldItalic.eot?#iefix')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SharpSansNoOne-Medium';
+  src: url('../assets/fonts/SharpSansNoOne-Medium.eot');
+  src: url('../assets/fonts/SharpSansNoOne-Medium.woff2') format('woff2'),
+    url('../assets/fonts/SharpSansNoOne-Medium.woff') format('woff'),
+    url('../assets/fonts/SharpSansNoOne-Medium.ttf') format('truetype'),
+    url('../assets/fonts/SharpSansNoOne-Medium.svg#SharpSansNoOne-Medium')
+      format('svg'),
+    url('../assets/fonts/SharpSansNoOne-Medium.eot?#iefix')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'SharpSansNoOne-Medium';
+  color: white;
+}
+
+p,
+q,
+a,
+li {
+  font-family: 'Archer-Medium';
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "Uhmmm",
+  "description": "Useless Millenials Making Media",
+  "version": "0.1.0",
+  "author": [
+    "Robert-Jan Korteschiel",
+    "Erik van Zummeren"
+  ],
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "2.0.0-beta.17",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",

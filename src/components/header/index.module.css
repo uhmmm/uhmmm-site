@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.hamburger {
+}
+
+.logo {
+  padding: 0 0 0 1rem;
+}
+
+.navItem {
+  padding: 0 1rem;
+}
