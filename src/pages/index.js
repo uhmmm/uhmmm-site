@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
 import classnames from 'classnames'
 
@@ -10,6 +9,7 @@ import './typography.css'
 
 import Header from '../components/header/'
 import styles from './index.module.css'
+import background from './background.png'
 import stick from './stick.png'
 import left from './left.png'
 import right from './right.png'
@@ -24,7 +24,13 @@ const IndexPage = ({ data }) => {
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <div className={classnames(styles.block, styles.blockLanding)}>
+      <div
+        className={classnames(styles.block, styles.blockLanding)}
+        style={{
+          background: `url(${background})`,
+          'background-size': 'cover',
+        }}
+      >
         <Header nav={data.site.siteMetadata.nav} />
         <div className={styles.block_body}>
           <div className={styles.text}>
@@ -55,9 +61,8 @@ const IndexPage = ({ data }) => {
         <div className={styles.block_body}>
           <div className={styles.text}>
             <p>
-              {' '}
               wij zijn kinderen van onze tijd. we maakten onze eerste websites
-              met Microsoft Frontpage.{' '}
+              met Microsoft Frontpage.
             </p>
           </div>
           <img src={right} alt="" />
