@@ -27,17 +27,19 @@ const IndexPage = ({ data }) => {
       <div className={classnames(styles.block, styles.blockLanding)}>
         <Header nav={data.site.siteMetadata.nav} />
         <div className={styles.block_body}>
-          <p>
-            uhmmm* is een journalistieke incubator. we hebben geen geld, maar
-            wel creativiteit, technologie en redelijk goede smaak.
-          </p>
+          <div className={styles.text}>
+            <p>
+              uhmmm* is een journalistieke incubator. we hebben geen geld, maar
+              wel creativiteit, technologie en redelijk goede smaak.
+            </p>
+          </div>
           <img src={stick} alt="" />
         </div>
       </div>
       <div className={classnames(styles.block, styles.blockBrown)}>
         <div className={styles.block_body}>
           <img src={left} alt="" />
-          <div>
+          <div className={styles.text}>
             <p>
               uit de duisternis ontstond het licht. uit het licht ontstond het
               internet, en uit het internet ontstond uhmmm*.
@@ -51,11 +53,13 @@ const IndexPage = ({ data }) => {
       </div>
       <div className={classnames(styles.block, styles.blockBrown)}>
         <div className={styles.block_body}>
-          <p>
-            {' '}
-            wij zijn kinderen van onze tijd. we maakten onze eerste websites met
-            Microsoft Frontpage.{' '}
-          </p>
+          <div className={styles.text}>
+            <p>
+              {' '}
+              wij zijn kinderen van onze tijd. we maakten onze eerste websites
+              met Microsoft Frontpage.{' '}
+            </p>
+          </div>
           <img src={right} alt="" />
         </div>
       </div>
