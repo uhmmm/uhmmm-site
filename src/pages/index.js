@@ -24,6 +24,7 @@ const IndexPage = ({ data }) => {
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
+      {/* Style import image because of Gatsby v2 bug */}
       <div
         className={classnames(styles.block, styles.blockLanding)}
         style={{
